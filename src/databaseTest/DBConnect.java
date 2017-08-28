@@ -16,7 +16,7 @@ public class DBConnect {
         try {
             forName("com.mysql.jdbc.Driver");
 
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employees?autoReconnect=true&useSSL=false","root", "Prince991$");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employees?autoReconnect=true&useSSL=false","root", "");
 
             st = con.createStatement();
 
